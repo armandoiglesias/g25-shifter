@@ -220,7 +220,7 @@ void loop()
       long offset=(long)y-HB_MINIMUM;
       y=(int)(offset*1023/HB_RANGE);   // Scale input between minimum and maximum clip position
       
-      //Joystick.setXAxis(y);                   // Set handbrake analog output
+      Joystick.setXAxis(y);                   // Set handbrake analog output
       gear=0;                          // No gear engaged: neutral
     }
   }
@@ -246,7 +246,7 @@ void loop()
   Joystick.sendState();
   
   // Write inputs and outputs (remove comments to debug)
-  
+  /*
   Serial.print(" X axis: ");
   Serial.print(x);
   Serial.print(" Y axis: ");
@@ -260,7 +260,7 @@ void loop()
   Serial.print(mode);
   Serial.print(" Shift: ");
   Serial.println(shift);
-  
+  */
 
   // Blink the on-board LED
   if(++led==100) led=0;                     // Period is 100 cycles * 10ms = 1s
