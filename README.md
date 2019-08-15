@@ -6,18 +6,21 @@ I hope you keep enjoying your logitech G25 shifter standalone, all you need is a
 
 5, 4,3,2,1
 . . . . . 
+
 9,8,7,6
  . . . .
-1 -> VCC
-2 -> Data
-3 -> Mode
-4 -> Axis
-5 -> N/A
-6 -> GND
-7 -> Clock
-8 -> Axis
-9 -> N/A 
 
+
+
+ 1. VCC
+ 2. Data
+ 3. Mode
+ 4. Axis
+ 5. N/A
+ 6. GND
+ 7. Clock
+ 8. Axis
+ 9. N/A
 
 # Libraries
 
@@ -32,4 +35,5 @@ this project was based  on the following article [https://www.isrtv.com/forums/t
 this readme file was created on StackedEdit, check it out
 
  
+
 
